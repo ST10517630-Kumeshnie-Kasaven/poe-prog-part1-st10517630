@@ -119,7 +119,8 @@ Unit tests are included to verify that the system behaves correctly.
 This confirms that the validation methods are functioning as expected.
 
 ## Project Structure
-<img width="552" height="366" alt="image" src="https://github.com/user-attachments/assets/06a69683-09a4-4b38-bccd-d3fa7d983e06" />
+<img width="552" height="366" alt="image" src="https://github.com/user-attachments/assets/c13f0d8e-8dbc-457f-b9fa-04db9f952ec4" />
+
 
 
 
