@@ -135,7 +135,6 @@ This confirms that the validation methods are functioning as expected.
 - Input validation
 - Conditional statements (if/else)
 - Looping (while loops)
-- Regular expressions (Regex)
 - Unit testing
 
 
