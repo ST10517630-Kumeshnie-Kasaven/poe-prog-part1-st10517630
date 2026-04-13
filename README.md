@@ -138,13 +138,6 @@ This confirms that the validation methods are functioning as expected.
 - Unit testing
 
 
+Student Name: Kumeshnie Kasaven
 
-## Reference
-Regular expression used for validating South African phone numbers:
-https://stackoverflow.com/questions/25449643/validate-south-african-phone-number
-
----
-
-## Author
-- Student Name: Kumeshnie Kasaven
-- Student Number: ST10517630
+Student Number: ST10517630
