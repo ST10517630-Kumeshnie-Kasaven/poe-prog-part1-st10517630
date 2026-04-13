@@ -140,6 +140,3 @@ This confirms that the validation methods are functioning as expected.
 - Unit testing
 
 
-Student Name: Kumeshnie Kasaven
-
-Student Number: ST10517630
