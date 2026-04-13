@@ -1,6 +1,8 @@
 # PROG5121 POE – Part 1  
 ## Registration & Login System (Java Console Application)
+Student Name: Kumeshnie Kasaven
 
+Student Number: ST10517630
 ---
 
 ## Overview
