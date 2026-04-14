@@ -1,6 +1,7 @@
 package com.mycompany.prog.poe.st10517630;
 
 import java.util.Scanner;
+//imported scanner
 
 public class PROGPOEST10517630 {
     public static void main(String[] args) {
@@ -13,6 +14,7 @@ public class PROGPOEST10517630 {
         String Name = a.nextLine();
         
         while (Name.isBlank()){
+            //Loop so that user cannot leave the space blank.
             System.out.println("Please enter name: ");
             Name = a.nextLine();
         }
@@ -21,6 +23,7 @@ public class PROGPOEST10517630 {
         String Surname = a.nextLine();
         
         while (Surname.isBlank()){
+            //Loop so that surname cannot be left blank.
             System.out.println("Please enter surname: ");
             Surname = a.nextLine();
         }
@@ -32,7 +35,7 @@ public class PROGPOEST10517630 {
         if (loginSystem.checkCellPhoneNumber(cellNumber)){
             System.out.println("Cell phone number successfully added");
             break;
-        }else{
+        }else{    //returns a message if the expectations are not met.
             System.out.println("Cell phone number incorrectly formatted or does not contain international code");
         }
         }
@@ -44,7 +47,7 @@ public class PROGPOEST10517630 {
             if (loginSystem.checkUserName(username)) {
                 System.out.println("Username successfully captured.");
                 break;
-            } else {
+            } else { //returns a message if the expectations are not met.
                 System.out.println("Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.");
             }
         }
