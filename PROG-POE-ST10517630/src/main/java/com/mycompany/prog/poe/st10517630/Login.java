@@ -15,13 +15,13 @@ public class Login {
 
     // Checks password for length, capital letter, number, and special character
     public boolean checkPasswordComplexity(String password) {
-        if (password.length() < 8)return false;
+        if (password.length() < 8)return false;//insures that the password is not less than 8 characters 
         
-        if (!password.matches(".*[A-Z].*"))return false;
+        if (!password.matches(".*[A-Z].*"))return false;// Makes sure user adds a capital letter.
         
-        if(!password.matches(".*[0-9].*"))return false;
+        if(!password.matches(".*[0-9].*"))return false;// password should contain a number.
         
-        if(!password.matches(".*[^a-zA-Z0-9].*"))return false;
+        if(!password.matches(".*[^a-zA-Z0-9].*"))return false; // this states that the code contains atleast 1 character that isn't a letter or number
            
         return true;
     }
