@@ -9,7 +9,7 @@ public class PROGPOEST10517630 {
 
         System.out.println("--- CREATE ACCOUNT ---\n");
         
-        System.out.print("Enter FSirst Name: \n");
+        System.out.print("Enter First Name: \n");
         String Name = a.nextLine();
         
         while (Name.isBlank()){
