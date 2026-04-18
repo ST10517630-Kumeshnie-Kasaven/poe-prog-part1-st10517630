@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestLogin.LoginTest" time="0.07" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestLogin.LoginTest" time="0.073" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630\target\test-classes;C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630\target\classes;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\kumes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\kumes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630\target\test-classes;C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630\target\classes;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\kumes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\kumes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,10 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\kumes\AppData\Local\Temp\surefire5843858488418599214\surefirebooter-20260413203810792_3.jar C:\Users\kumes\AppData\Local\Temp\surefire5843858488418599214 2026-04-13T20-38-10_569-jvmRun1 surefire-20260413203810792_1tmp surefire_0-20260413203810792_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kumes\AppData\Local\Temp\surefire12392113428654632162\surefirebooter-20260414214509306_3.jar C:\Users\kumes\AppData\Local\Temp\surefire12392113428654632162 2026-04-14T21-45-09_101-jvmRun1 surefire-20260414214509306_1tmp surefire_0-20260414214509306_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630\target\test-classes;C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630\target\classes;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\kumes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\kumes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
+    <property name="test" value="TestLogin.LoginTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630\target\test-classes;C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630\target\classes;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\kumes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\kumes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\kumes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\kumes"/>
     <property name="user.language" value="en"/>
@@ -25,12 +26,12 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630"/>
+    <property name="basedir" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kumes\AppData\Local\Temp\surefire5843858488418599214\surefirebooter-20260413203810792_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kumes\AppData\Local\Temp\surefire12392113428654632162\surefirebooter-20260414214509306_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
@@ -47,12 +48,12 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\kumes\AppData\Local\Temp\"/>
     <property name="java.version" value="25.0.1"/>
-    <property name="user.dir" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-part1-ST10517630-Kumeshnie-Kasaven-1\PROG-POE-ST10517630"/>
+    <property name="user.dir" value="C:\Users\kumes\OneDrive\Documents\PROG\poe-prog-part1-st10517630\PROG-POE-ST10517630"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Users\kumes\AppData\Local\Microsoft\WindowsApps;C:\Users\kumes\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\kumes\AppData\Local\Microsoft\WindowsApps;C:\Users\kumes\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
@@ -61,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testCheckUserName" classname="TestLogin.LoginTest" time="0.032"/>
-  <testcase name="testPasswordComplexity" classname="TestLogin.LoginTest" time="0.002"/>
+  <testcase name="testCheckUserName" classname="TestLogin.LoginTest" time="0.033"/>
+  <testcase name="testPasswordComplexity" classname="TestLogin.LoginTest" time="0.003"/>
   <testcase name="testCheckCellPhoneNumber" classname="TestLogin.LoginTest" time="0.002"/>
 </testsuite>

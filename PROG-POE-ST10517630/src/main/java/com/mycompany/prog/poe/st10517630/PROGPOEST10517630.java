@@ -19,7 +19,7 @@ public class PROGPOEST10517630 {
             Name = a.nextLine();
         }
        
-        System.out.print("Enter Last Name: \n");
+        System.out.print("Enter surname: \n");
         String Surname = a.nextLine();
         
         while (Surname.isBlank()){
